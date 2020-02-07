@@ -1,0 +1,177 @@
+@charset "utf-8";
+/*About Me stylesheet
+
+Author: Swan Htet
+Date: Jan 6, 2020
+}*/
+
+
+/*style the top nav */
+.topnav {
+  overflow: hidden;
+  background-color: #ccffcc;
+  border-style: double solid;
+  box-shadow: 5px 10px 10px black;
+  margin: 2px;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 15px 18px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #cce6ff;
+  color: black;
+}
+
+
+/* Style the header */
+header {
+	padding: 20px;
+	background: url(my_img4.jpg) 100%/ cover no-repeat;
+	height: 950px;
+}
+
+
+/*Style the h1*/
+h1 { 
+	text-align: center;
+	color: #003366;
+	font-size:50px;
+	font-family: 'Rubik', sans-serif;
+	position: absolute;
+	top: 44%;
+	left: 38%;
+	
+}
+
+/*Style h2 */
+h2 {
+	color: 	 #66b3ff;
+	text-align: bottom;
+	position: absolute;
+	top: 53%;
+	left: 38%;
+}
+
+.icon1 {
+	position: absolute;
+	top: 59%;
+	left: 43%;
+	font-size: 20px;
+}
+
+.icon2 {
+	position: absolute;
+	top: 59%;
+	left: 45%;
+	font-size: 20px;
+}
+
+.icon3 {
+	position: absolute;
+	top: 59%;
+	left: 47%;
+	font-size: 20px;
+}
+
+.text1 {
+	position: absolute;
+	writing-mode: vertical-lr;
+	text-orientation: upright;
+	top: 28%;
+	font-weight: bold;
+}
+
+.text2 {
+	position: absolute;
+	writing-mode: vertical-lr;
+	text-orientation: upright;
+	top: 28%;
+	left: 96%;
+	font-weight: bold;
+}
+
+/* Create two columns/boxes that floats next to each other */
+article {
+  float: left;
+  width: 130 px;
+  height: 190px; 
+  padding: 20px;
+  box-shadow: 5px 10px 10px black;
+  position: relative;
+  margin: 10px;
+}	
+
+/* Style the section */
+section {
+	position: relative;
+	margin-left: 3%;
+	padding: 5px;
+}
+
+/*Style the main */
+main {
+	background-color: #cce6ff;
+	border-style: double solid;
+}
+
+
+/*Style all the paragraph in the section*/
+ section > p {
+	padding-left: 250px;
+	font-size: 20px;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+  background-color:#99ccff;
+}
+
+/*Style the body */
+body {
+	background-color:#ccffcc;
+	margin:0;
+	overflow-y:scroll;
+}
+
+/*Style the footer*/
+footer {
+	background-color:#cce6ff;
+	border-style: double solid;
+}
+
+/*Style p of the footer*/
+footer p {
+	text-align:center;
+}
+
+/*Remove all the underline of the links*/
+a {
+	text-decoration: none;
+}
+
+/*Style the div block which class is afterfloat */
+.afterfloat {
+	margin: 2%;
+	font-size: 18px;
+}
+
+
+/* Removing the vertical scrolbar */
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /*  just make scrollbar invisible */
+}
+
+
